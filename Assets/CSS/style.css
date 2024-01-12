@@ -41,6 +41,7 @@
     flex-grow:0;
     padding-right: 6%;
   }
+
   .play-red-color{
     color: #E74D44;
   }
@@ -52,4 +53,32 @@
   #font-style-2 {
     font-family: myFirstFont;
     font-size: 20px;
+  }
+  .img-container{
+    position: relative;
+  text-align: center;
+  color: white;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 64px;
+    left: 128px;
+  }
+
+  .divider3{
+    flex-grow: 0.08;
+    height: 1px;
+    background-color: #FFF;
+    margin-right: 2%;
+  }
+
+  .mytexttitle4{
+    flex-grow:0;
+    padding-right: 12%;
+  }
+  .divider4{
+    flex-grow: 0.2;
+    height: 1px;
+    background-color: #3D4044;
   }
